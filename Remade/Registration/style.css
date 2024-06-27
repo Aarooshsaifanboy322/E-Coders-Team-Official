@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-heading {
+    animation: modernslidein 2s linear;
+}
+#user-email {
+    width: 387px;
+    overflow: hidden;
+    height: 24px;
+    font-size: large;
+    border: none;
+    border-radius: 2px;
+    background: rgba(72, 72, 72, 0.6);
+    color: white;
+}
+@keyframes modernslidein {
+    from {
+        transform: translateX(1000px);
+    }
+}
+.join_team {
+    width: 187px;
+    height: 43px;
+    font-size: larger;
+    border-radius: 9px;
+    border: transparent;
+    cursor: pointer;
+    background-color: aquamarine;
+}

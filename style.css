@@ -1,0 +1,22 @@
+.header-container {
+    overflow: hidden;
+    position: sticky;
+    background-color: gray;
+    height: auto;
+    border-radius: 8px;
+    color: black;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+.applyforjob {
+    background-color:cadetblue;
+    border-radius: 8px;
+    border: transparent;
+    height: 50.8px;
+    width: 152px;
+    font-size: x-large;
+    cursor: pointer;
+}
